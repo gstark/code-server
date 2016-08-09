@@ -1,24 +1,18 @@
-# Code::Server
+# CodeServer
 
-This gem adds a `code-server` command which, when supplied a parameter of a directory, will server this directory as a browsable code repository.
+This gem adds a `codeserver` command which, when supplied a parameter of a directory, will server this directory as a browsable code repository.
 
 ## Installation
 
 Install this gem:
 
 ```ruby
-gem install code-server
-```
-
-Install the `highlights` npm module:
-
-```
-npm install highlights
+gem install codeserver
 ```
 
 And then execute:
 
-    $ code-server --directory . --port NUMBER --binding 0.0.0.0
+    $ codeserver --directory . --port 4242 --binding 0.0.0.0
 
 The options above show the defaults.
 
