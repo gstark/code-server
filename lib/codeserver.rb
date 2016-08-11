@@ -2,7 +2,6 @@ require "codeserver/version"
 require 'sinatra'
 require 'sinatra-websocket'
 require 'rb-fsevent'
-require 'awesome_print' if development?
 
 require 'find'
 require 'erb'
